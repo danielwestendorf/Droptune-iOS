@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57E27B705FE5D1EBE3439DBF /* Pods_Droptune_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C4CDD2985789FB3CDB323 /* Pods_Droptune_iOS.framework */; };
 		82390CB023B7D88C003CC6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82390CAF23B7D88C003CC6EB /* AppDelegate.swift */; };
-		82390CB223B7D88C003CC6EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82390CB123B7D88C003CC6EB /* SceneDelegate.swift */; };
-		82390CB423B7D88C003CC6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82390CB323B7D88C003CC6EB /* ViewController.swift */; };
-		82390CB723B7D88C003CC6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82390CB523B7D88C003CC6EB /* Main.storyboard */; };
 		82390CB923B7D88D003CC6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82390CB823B7D88D003CC6EB /* Assets.xcassets */; };
 		82390CBC23B7D88D003CC6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82390CBA23B7D88D003CC6EB /* LaunchScreen.storyboard */; };
+		8272373323B7DC2F006DFC69 /* ApplicatioinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272373223B7DC2F006DFC69 /* ApplicatioinController.swift */; };
+		8272373523B7DC9C006DFC69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8272373423B7DC9C006DFC69 /* Main.storyboard */; };
+		8272373723B7DFD0006DFC69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272373623B7DFD0006DFC69 /* ViewController.swift */; };
+		8272373923B7DFE6006DFC69 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272373823B7DFE6006DFC69 /* Error.swift */; };
+		8272373B23B7DFF9006DFC69 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272373A23B7DFF9006DFC69 /* ErrorView.swift */; };
+		8272373D23B7E056006DFC69 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272373C23B7E056006DFC69 /* AuthenticationController.swift */; };
+		8272373F23B7E0E7006DFC69 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8272373E23B7E0E7006DFC69 /* ErrorView.xib */; };
+		8272374123B960A0006DFC69 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272374023B960A0006DFC69 /* ScriptMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D5511700E9430435526EEC5 /* Pods-Droptune-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Droptune-iOS.release.xcconfig"; path = "Target Support Files/Pods-Droptune-iOS/Pods-Droptune-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		82390CAC23B7D88C003CC6EB /* Droptune-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Droptune-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82390CAF23B7D88C003CC6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82390CB123B7D88C003CC6EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82390CB323B7D88C003CC6EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82390CB623B7D88C003CC6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82390CB823B7D88D003CC6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82390CBB23B7D88D003CC6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82390CBD23B7D88D003CC6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8272373223B7DC2F006DFC69 /* ApplicatioinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicatioinController.swift; sourceTree = "<group>"; };
+		8272373423B7DC9C006DFC69 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8272373623B7DFD0006DFC69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8272373823B7DFE6006DFC69 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8272373A23B7DFF9006DFC69 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8272373C23B7E056006DFC69 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		8272373E23B7E0E7006DFC69 /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		8272374023B960A0006DFC69 /* ScriptMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptMessage.swift; sourceTree = "<group>"; };
+		BD3C4CDD2985789FB3CDB323 /* Pods_Droptune_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Droptune_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75CA36B2ED786DF2DBFE498 /* Pods-Droptune-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Droptune-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Droptune-iOS/Pods-Droptune-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E27B705FE5D1EBE3439DBF /* Pods_Droptune_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				82390CAE23B7D88C003CC6EB /* Droptune-iOS */,
 				82390CAD23B7D88C003CC6EB /* Products */,
+				9A3AC7A1E73C12CE09AE6510 /* Pods */,
+				D1530028CD0D06DBA51F1B0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				82390CAF23B7D88C003CC6EB /* AppDelegate.swift */,
-				82390CB123B7D88C003CC6EB /* SceneDelegate.swift */,
-				82390CB323B7D88C003CC6EB /* ViewController.swift */,
-				82390CB523B7D88C003CC6EB /* Main.storyboard */,
 				82390CB823B7D88D003CC6EB /* Assets.xcassets */,
 				82390CBA23B7D88D003CC6EB /* LaunchScreen.storyboard */,
 				82390CBD23B7D88D003CC6EB /* Info.plist */,
+				8272373223B7DC2F006DFC69 /* ApplicatioinController.swift */,
+				8272373423B7DC9C006DFC69 /* Main.storyboard */,
+				8272373623B7DFD0006DFC69 /* ViewController.swift */,
+				8272373823B7DFE6006DFC69 /* Error.swift */,
+				8272373A23B7DFF9006DFC69 /* ErrorView.swift */,
+				8272373C23B7E056006DFC69 /* AuthenticationController.swift */,
+				8272373E23B7E0E7006DFC69 /* ErrorView.xib */,
+				8272374023B960A0006DFC69 /* ScriptMessage.swift */,
 			);
 			path = "Droptune-iOS";
+			sourceTree = "<group>";
+		};
+		9A3AC7A1E73C12CE09AE6510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75CA36B2ED786DF2DBFE498 /* Pods-Droptune-iOS.debug.xcconfig */,
+				6D5511700E9430435526EEC5 /* Pods-Droptune-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1530028CD0D06DBA51F1B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3C4CDD2985789FB3CDB323 /* Pods_Droptune_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82390CC023B7D88D003CC6EB /* Build configuration list for PBXNativeTarget "Droptune-iOS" */;
 			buildPhases = (
+				B802C37FBE1C95FC5A88C9F0 /* [CP] Check Pods Manifest.lock */,
 				82390CA823B7D88C003CC6EB /* Sources */,
 				82390CA923B7D88C003CC6EB /* Frameworks */,
 				82390CAA23B7D88C003CC6EB /* Resources */,
+				EBC6F0DC617FFF9E388C84DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +166,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8272373523B7DC9C006DFC69 /* Main.storyboard in Resources */,
 				82390CBC23B7D88D003CC6EB /* LaunchScreen.storyboard in Resources */,
 				82390CB923B7D88D003CC6EB /* Assets.xcassets in Resources */,
-				82390CB723B7D88C003CC6EB /* Main.storyboard in Resources */,
+				8272373F23B7E0E7006DFC69 /* ErrorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B802C37FBE1C95FC5A88C9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Droptune-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC6F0DC617FFF9E388C84DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Droptune-iOS/Pods-Droptune-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Droptune-iOS/Pods-Droptune-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Droptune-iOS/Pods-Droptune-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82390CA823B7D88C003CC6EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82390CB423B7D88C003CC6EB /* ViewController.swift in Sources */,
+				8272373B23B7DFF9006DFC69 /* ErrorView.swift in Sources */,
 				82390CB023B7D88C003CC6EB /* AppDelegate.swift in Sources */,
-				82390CB223B7D88C003CC6EB /* SceneDelegate.swift in Sources */,
+				8272373323B7DC2F006DFC69 /* ApplicatioinController.swift in Sources */,
+				8272373D23B7E056006DFC69 /* AuthenticationController.swift in Sources */,
+				8272374123B960A0006DFC69 /* ScriptMessage.swift in Sources */,
+				8272373923B7DFE6006DFC69 /* Error.swift in Sources */,
+				8272373723B7DFD0006DFC69 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		82390CB523B7D88C003CC6EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82390CB623B7D88C003CC6EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82390CBA23B7D88D003CC6EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +362,7 @@
 		};
 		82390CC123B7D88D003CC6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75CA36B2ED786DF2DBFE498 /* Pods-Droptune-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		82390CC223B7D88D003CC6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5511700E9430435526EEC5 /* Pods-Droptune-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
